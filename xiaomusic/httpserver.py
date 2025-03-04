@@ -15,6 +15,9 @@ import socketio
 if TYPE_CHECKING:
     from xiaomusic.xiaomusic import XiaoMusic
 
+if TYPE_CHECKING:
+    from xiaomusic.xiaomusic import XiaoMusic
+
 import aiofiles
 from fastapi import (
     Depends,
